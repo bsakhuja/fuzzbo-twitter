@@ -2,18 +2,11 @@ console.log("Starting the Bot..");
 const config = require('./config');
 const { TwitterApi } = require('twitter-api-v2');
 
-// const client = new TwitterApi({
-//     appKey: config.appKey,
-//     appSecret: config.appSecret,
-//     accessToken: config.accessToken,
-//     accessSecret: config.accessSecret,
-// });
-
 const client = new TwitterApi({
-    appKey: 'X3GrEpReEEJXxfRBy5xvnhTQE',
-    appSecret: 'b9uGZxoKynk8rv0YaBUcZQjAoNYivGcg3W66MxSw85VBDH5SWH',
-    accessToken: '1478117648307142657-XdBTsx3qQpDf4VozqKHPVMSok5JMdJ',
-    accessSecret: 'HCVXiXHSuHuZ6ifQfRebCS33e7A7YK2xagIZ3UMIh1k33',
+    appKey: config.appKey,
+    appSecret: config.appSecret,
+    accessToken: config.accessToken,
+    accessSecret: config.accessSecret,
 });
 
 const nftLinks = [
